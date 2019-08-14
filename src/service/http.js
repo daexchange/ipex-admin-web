@@ -1,7 +1,7 @@
 import axios from 'axios'
 import qs from 'qs'
 
-export const BASEURL = axios.defaults.baseURL = 'https://ipex.openserver.cn/';
+export const BASEURL = axios.defaults.baseURL = 'https://mulechain.ipcom.io/';
 
 export const fetch = (url, params = {}) => {
     return new Promise((resolve, reject) => {
